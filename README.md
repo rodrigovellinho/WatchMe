@@ -41,6 +41,7 @@ yarn dev
 ## 🔨 Tecnologias:
 
 - **[ReactJS](https://reactjs.org/)**
+- **[TypeScript](https://www.typescriptlang.org/)**
 - **[Axios](https://github.com/axios/axios)**
 
 <br>
