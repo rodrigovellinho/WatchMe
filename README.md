@@ -49,5 +49,3 @@ yarn dev
 
 Feito por [Rodrigo Kloeckner](https://github.com/rodrigovellinho)
 
-[![Linkedin Badge](https://img.shields.io/badge/-Rafael%20Martins-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/rodrigokloeckner/)](https://www.linkedin.com/in/rodrigokloeckner/)
-[![Gmail Badge](https://img.shields.io/badge/-rafaeldcmartins@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:rodrigo.kloeckner@gmail.com)](mailto:rodrigo.kloeckner@gmail.com)
