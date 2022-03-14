@@ -37,12 +37,10 @@ export function App() {
         selectedGenreId={selectedGenreId}
       />
 
-      <main>
-        <Content
-          selectedGenreId={selectedGenreId}
-          selectedGenre={selectedGenre}
-        />
-      </main>
+      <Content
+        selectedGenreId={selectedGenreId}
+        selectedGenre={selectedGenre}
+      />
     </div>
   );
 }
