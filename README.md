@@ -7,7 +7,11 @@
 ## :rocket: Sobre o desafio
 
 <p align="center">
+<<<<<<< HEAD
   <img src="/github/WatchMe.png" alt="WatchMe">
+=======
+  <img src="https://github.com/rodrigovellinho/WatchMe/blob/main/src/github/WatchMe.PNG" alt="WatchMe">
+>>>>>>> 02cf805506c81ca1ba801c4d0d1d68442ef56b8f
 </p>
 
 O objetivo do desafio refatorar uma página para listagem de filmes de acordo com gênero.
@@ -41,6 +45,7 @@ yarn dev
 ## 🔨 Tecnologias:
 
 - **[ReactJS](https://reactjs.org/)**
+- **[TypeScript](https://www.typescriptlang.org/)**
 - **[Axios](https://github.com/axios/axios)**
 
 <br>
@@ -49,5 +54,3 @@ yarn dev
 
 Feito por [Rodrigo Kloeckner](https://github.com/rodrigovellinho)
 
-[![Linkedin Badge](https://img.shields.io/badge/-Rafael%20Martins-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/rodrigokloeckner/)](https://www.linkedin.com/in/rodrigokloeckner/)
-[![Gmail Badge](https://img.shields.io/badge/-rafaeldcmartins@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:rodrigo.kloeckner@gmail.com)](mailto:rodrigo.kloeckner@gmail.com)
