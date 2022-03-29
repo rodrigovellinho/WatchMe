@@ -7,7 +7,7 @@
 ## :rocket: Sobre o desafio
 
 <p align="center">
-  <img src=".github/WatchMe.png" alt="WatchMe">
+  <img src="/github/WatchMe.png" alt="WatchMe">
 </p>
 
 O objetivo do desafio refatorar uma página para listagem de filmes de acordo com gênero.

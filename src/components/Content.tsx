@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { memo, useCallback, useEffect, useState } from "react";
 import { MovieCard } from "../components/MovieCard";
 import { api } from "../services/api";
 import "../styles/content.scss";
@@ -25,15 +25,19 @@ interface ContentProps {
   selectedGenre: GenreResponseProps;
 }
 
-export function Content({ selectedGenreId, selectedGenre }: ContentProps) {
+function ContentComponent({ selectedGenreId, selectedGenre }: ContentProps) {
   const [movies, setMovies] = useState<MovieProps[]>([]);
 
-  useEffect(() => {
+  const loadData = useCallback(() => {
     api
       .get<MovieProps[]>(`movies/?Genre_id=${selectedGenreId}`)
       .then((response) => {
         setMovies(response.data);
       });
+  }, [selectedGenreId]);
+
+  useEffect(() => {
+    loadData();
   }, [selectedGenreId]);
 
   return (
@@ -59,3 +63,7 @@ export function Content({ selectedGenreId, selectedGenre }: ContentProps) {
     </div>
   );
 }
+
+export const Content = memo(ContentComponent, (prevProps, nexProps) => {
+  return Object.is(prevProps.selectedGenre, nexProps.selectedGenre);
+});
