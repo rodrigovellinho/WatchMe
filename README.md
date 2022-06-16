@@ -7,9 +7,7 @@
 ## :rocket: Sobre o desafio
 
 <p align="center">
-<<<<<<< HEAD
-  <img src="/github/WatchMe.png" alt="WatchMe">
-=======
+
   <img src="https://github.com/rodrigovellinho/WatchMe/blob/main/src/github/WatchMe.PNG" alt="WatchMe">
 >>>>>>> 02cf805506c81ca1ba801c4d0d1d68442ef56b8f
 </p>
